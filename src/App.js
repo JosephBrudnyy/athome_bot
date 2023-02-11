@@ -11,7 +11,7 @@ function App() {
 
   React.useEffect(() => {
     tg.ready();
-  }, [])
+  }, [tg])
 
 
   return (
